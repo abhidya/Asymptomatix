@@ -26,7 +26,6 @@
     <input type="text" class="form-control w-100 border-0 bg-transparent" placeholder="Search here">
     <i class="fa fa-search position-absolute d-block fs-6"></i>
   </div>
-
   <ul class="categories list-unstyled">
     <li class="">
       <i class="uil-estate fa-fw"></i><a href="index.html"> Dashboard</a>
@@ -177,31 +176,81 @@
 
 
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
 
 
-
-<section class="charts mt-4">
-      <div class="chart-container p-3">
-        <h3 class="fs-6 mb-3">Chart title number three</h3>
-        <div style="height: 600px"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-          <iframe width="100%" height="100%" src="https://flowmap.blue/1VCVady2OANtFDNg9gtPXn1G7XM1LZbdNIgZUT6lEE5c/embed?v=35.952417,-83.933059,14.68,0,0&amp;a=1&amp;as=1&amp;b=1&amp;bo=75&amp;c=1&amp;ca=1&amp;d=1&amp;fe=1&amp;lt=1&amp;lfm=ALL&amp;col=Reds&amp;f=50" frameborder="0" allowfullscreen=""></iframe>
-
+    <section class="charts mt-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="chart-container rounded-2 p-3">
+            <h3 class="fs-6 mb-3">Positive Vs. Negative Tests</h3>
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="chart-container rounded-2 p-3">
+            <h3 class="fs-6 mb-3">Active Cases, Tests, and Vaccinations over time</h3>
+            <canvas id="myChart2"></canvas>
+          </div>
         </div>
       </div>
     </section>
 
 
+  <section class="statis mt-4 text-center">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="box p-3">
+            <i class="uil-bed"></i>
+            <h3>5,154</h3>
+            <p class="lead">Open ICU Capacity</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="box  p-3">
+            <i class="uil-user"></i>
 
 
+            <h3>245</h3>
+            <p class="lead">Quarantined Patients</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <div class="box  p-3">
+            <i class="uil-flask"></i>
+            <h3>12,202</h3>
+            <p class="lead">New State Cases</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box  p-3">
+            <i class="uil-feedback"></i>
+            <h3>5,154</h3>
+            <p class="lead">New County Cases</p>
+          </div>
+        </div>
+      <br>
 
+    </section>
 
+  </div>
 
+<div class="p-4">
 
-
-
-
-
+    <section class="charts mt-4">
+      <div class="chart-container p-3">
+        <h3 class="fs-6 mb-3">Cases by County</h3>
+        <div style="height: 300px">
+          <canvas id="chart3" width="100%"></canvas>
+        </div>
+      </div>
+    </section>  </div>
 
 
 
